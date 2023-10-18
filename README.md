@@ -9,6 +9,14 @@
 
 [What are StatsHunters explorer tiles?](https://www.statshunters.com/faq-10-what-are-explorer-tiles)
 
+## Demo
+
+A demo is available [here][github-pages]
+
+[![gatsby-source-statshunters](./preview.png)][github-pages]
+
+You can checkout how to use it in the [example](./example/src/pages/index.js) folder.
+
 ## Usage
 
 1. Download `gatsby-source-statshunters` from the NPM registry:
@@ -46,12 +54,6 @@ statsHunters {
 
 `square`, `tiles` and `cluster` are arrays of `[lat,lng]` coordinates.
 
-4. Display your tiles with your favorite map library
-
-![gatsby-source-statshunters](./preview.png)
-
-You can checkout how to use it in the [example](./example/src/pages/index.js) folder.
-
 ## Contributing
 
 - ⇄ Pull/Merge requests and ★ Stars are always welcome.
@@ -73,3 +75,4 @@ I wanted to thank Stan Ansems once again for making [StatsHunters](https://www.s
 [npm-badge]: https://img.shields.io/npm/v/gatsby-source-statshunters.svg?style=flat-square
 [npm]: https://www.npmjs.org/package/gatsby-source-statshunters
 [github-issue]: https://github.com/cedricdelpoux/gatsby-source-statshunters/issues/new
+[github-pages]: https://cedricdelpoux.github.io/gatsby-source-statshunters/

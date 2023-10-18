@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-source-statshunters-example",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "dev": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@urbica/react-map-gl": "^1.16.2",
+    "gatsby": "^4.24.0",
+    "gh-pages": "^6.0.0",
+    "mapbox-gl": "^2.15.0",
+    "react": "link:../node_modules/react",
+    "react-dom": "link:../node_modules/react-dom"
+  }
+}

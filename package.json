@@ -1,0 +1,48 @@
+{
+  "name": "gatsby-source-statshunters",
+  "version": "1.0.0",
+  "description": "Gatsby plugin to use Statsunters as a data source",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricdelpoux/gatsby-source-statshunters.git"
+  },
+  "author": {
+    "name": "Cédric Delpoux",
+    "email": "cedric.delpoux@gmail.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source",
+    "gatsby-source-plugin",
+    "strava",
+    "statshunters",
+    "mymaps",
+    "maps"
+  ],
+  "main": "index.js",
+  "files": [
+    "gatsby-node.js"
+  ],
+  "dependencies": {
+    "node-fetch": "2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^4.3.0",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "prettier": "2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^3.0.0 || ^4.0.0"
+  },
+  "scripts": {
+    "lint": "eslint gatsby-node.js"
+  }
+}
